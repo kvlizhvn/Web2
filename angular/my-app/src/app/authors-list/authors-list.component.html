@@ -1,0 +1,12 @@
+
+<div class="list-of-authors">
+  <h2>Authors List</h2>
+
+  <p *ngFor="let author of authors" class="list-group">
+
+      <a routerLink="/authors/{{author.id}}" class="list-group-item">
+         {{author.name}}
+      </a>
+
+  </p>
+</div>
